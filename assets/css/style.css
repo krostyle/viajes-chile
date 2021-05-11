@@ -16,12 +16,11 @@ hr {
     background-color: black
 }
 
-.card-images {
-    max-height: 10rem;
-}
+
+/*.card-images {}
 
 @media (max-width: 768px) {
     .card-images {
         max-height: 100%;
     }
-}
+}*/
