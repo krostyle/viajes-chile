@@ -1,0 +1,27 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+}
+
+hr {
+    background-color: #3cc4d4;
+    height: 2px !important;
+}
+
+.bg-quienes-somos {
+    background-color: #3cc4d4;
+}
+
+.bg-black {
+    background-color: black
+}
+
+.card-images {
+    max-height: 10rem;
+}
+
+@media (max-width: 768px) {
+    .card-images {
+        max-height: 100%;
+    }
+}

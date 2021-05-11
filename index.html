@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Fontawesome-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!--Google Font Open Sans-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <!--Bootstrap CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <!--Mis Estilos-->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Viajes Chile</title>
+</head>
+
+<body>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light fixed-top bg-transparent">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./assets/img/viajes.svg">Viajes Chile</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#quienessomos">Quienes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#destacado">Destacado</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Carousel-->
+    <header>
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+    <!--Quienes Somos-->
+    <section class="container my-5 py-5 d-none d-md-block" id="quienessomos">
+        <h1 class="text-white text-center fw-bold">Quienes Somos</h1>
+        <hr>
+        <div class="card-group my-5">
+            <div class="card bg-black mx-3">
+                <div class="card-body text-white fw-light">
+                    <div class="card-title text-center bg-quienes-somos text-white py-2">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente distinctio pariatur, similique impedit ex cum voluptas aperiam, dolore aut odit asperiores nam aliquam, autem hic quo perferendis officia dicta tenetur! Temporibus culpa
+                        quod mollitia tempora dolore laboriosam impedit vero? Totam quo, quisquam praesentium, excepturi non, similique vero voluptas accusantium laboriosam dicta ipsam corrupti rerum mollitia aut! Nemo id illo unde. Ipsa, temporibus distinctio
+                        aspernatur dolore nulla culpa reprehenderit cum quidem ea in minima. Sint molestiae eveniet ipsam in assumenda debitis quidem nobis, et, porro beatae facilis aliquid mollitia eos optio.</p>
+                </div>
+            </div>
+            <div class="card bg-black mx-3">
+                <div class="card-body text-white fw-light ">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente distinctio pariatur, similique impedit ex cum voluptas aperiam, dolore aut odit asperiores nam aliquam, autem hic quo perferendis officia dicta tenetur! Temporibus culpa
+                        quod mollitia tempora dolore laboriosam impedit vero? Totam quo, quisquam praesentium, excepturi non, similique vero voluptas accusantium laboriosam dicta ipsam corrupti rerum mollitia aut! Nemo id illo unde. Ipsa, temporibus distinctio
+                        aspernatur dolore nulla culpa reprehenderit cum quidem ea in minima. Sint molestiae eveniet ipsam in assumenda debitis quidem nobis, et, porro beatae facilis aliquid mollitia eos optio.</p>
+                    <div class="card-title text-center bg-quienes-somos text-white py-2 ">
+                        <i class="fas fa-mountain"></i>
+                    </div>
+                </div>
+
+            </div>
+            <div class="card bg-black mx-3">
+                <div class="card-body text-white fw-light">
+                    <div class="card-title text-center bg-quienes-somos text-white py-2">
+                        <i class="fas fa-route"></i>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente distinctio pariatur, similique impedit ex cum voluptas aperiam, dolore aut odit asperiores nam aliquam, autem hic quo perferendis officia dicta tenetur! Temporibus culpa
+                        quod mollitia tempora dolore laboriosam impedit vero? Totam quo, quisquam praesentium, excepturi non, similique vero voluptas accusantium laboriosam dicta ipsam corrupti rerum mollitia aut! Nemo id illo unde. Ipsa, temporibus distinctio
+                        aspernatur dolore nulla culpa reprehenderit cum quidem ea in minima. Sint molestiae eveniet ipsam in assumenda debitis quidem nobis, et, porro beatae facilis aliquid mollitia eos optio.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Destacado-->
+    <section class="container" id="destacado">
+        <h1 class="text-white text-center">Destacado</h1>
+        <hr>
+        <div class="card-group text-white">
+            <div class="card bg-black border border-light border-2 rounded-3 mx-3">
+                <img src="./assets/img/card1.jpg" class="card-img-top card-images" alt="...">
+                <div class="card-body bg-quienes-somos">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+                </div>
+            </div>
+            <div class="card bg-black border border-light border-2 rounded-3 mx-3">
+                <img src="./assets/img/card2.jpg" class="card-img-top card-images w-auto" alt="...">
+                <div class="card-body bg-quienes-somos">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+
+                </div>
+            </div>
+            <div class="card bg-black border border-light border-2 rounded-3 mx-3">
+                <img src="./assets/img/card3.jpg" class="card-img-top card-images" alt="...">
+                <div class="card-body bg-quienes-somos">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+
+                </div>
+            </div>
+            <div class="card bg-black border border-light border-2 rounded-3 mx-3">
+                <img src="./assets/img/card4.jpg" class="card-img-top card-images" alt="...">
+                <div class="card-body bg-quienes-somos">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+
+                </div>
+            </div>
+        </div>
+
+        <div>
+            asd
+        </div>
+
+    </section>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+</body>
+
+</html>
