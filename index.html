@@ -72,13 +72,13 @@
     </header>
 
     <!--Quienes Somos-->
-    <section class="container my-5 py-5 d-none d-md-block" id="quienessomos">
+    <section class="container mt-5 pt-5 d-none d-md-block" id="quienessomos">
         <h1 class="text-white text-center fw-bold">Quienes Somos</h1>
         <hr>
         <div class="card-group my-5">
             <div class="card bg-black mx-3">
                 <div class="card-body text-white fw-light">
-                    <div class="card-title text-center bg-ligth-blue text-white py-2">
+                    <div class="card-title text-center bg-ligth-blue text-white py-2 my-popover" type="button" data-bs-toggle="popover" data-bs-content="Viaje a lo largo de Chile en primera clase" data-bs-placement="top" data-bs-container="body">
                         <i class="fas fa-plane"></i>
                     </div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente distinctio pariatur, similique impedit ex cum voluptas aperiam, dolore aut odit asperiores nam aliquam, autem hic quo perferendis officia dicta tenetur! Temporibus culpa
@@ -91,7 +91,7 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente distinctio pariatur, similique impedit ex cum voluptas aperiam, dolore aut odit asperiores nam aliquam, autem hic quo perferendis officia dicta tenetur! Temporibus culpa
                         quod mollitia tempora dolore laboriosam impedit vero? Totam quo, quisquam praesentium, excepturi non, similique vero voluptas accusantium laboriosam dicta ipsam corrupti rerum mollitia aut! Nemo id illo unde. Ipsa, temporibus distinctio
                         aspernatur dolore nulla culpa reprehenderit cum quidem ea in minima. Sint molestiae eveniet ipsam in assumenda debitis quidem nobis, et, porro beatae facilis aliquid mollitia eos optio.</p>
-                    <div class="card-title text-center bg-ligth-blue text-white py-2 ">
+                    <div class="card-title text-center bg-ligth-blue text-white py-2 my-popover" type="button" data-bs-toggle="popover" data-bs-content="Escale los volcanes mas sorprendentes" data-bs-placement="bottom" data-bs-container="body">
                         <i class="fas fa-mountain"></i>
                     </div>
                 </div>
@@ -99,7 +99,7 @@
             </div>
             <div class="card bg-black mx-3">
                 <div class="card-body text-white fw-light">
-                    <div class="card-title text-center bg-ligth-blue text-white py-2">
+                    <div class="card-title text-center bg-ligth-blue text-white py-2" type="button" data-bs-toggle="modal" data-bs-target="#myModal">
                         <i class="fas fa-route"></i>
                     </div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente distinctio pariatur, similique impedit ex cum voluptas aperiam, dolore aut odit asperiores nam aliquam, autem hic quo perferendis officia dicta tenetur! Temporibus culpa
@@ -110,33 +110,54 @@
         </div>
     </section>
 
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Somos el Mejor País de Chile!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Podras viajar en avion, recorrer montañas o si lo prefieres, un increible Trekking por el Mejor Pais de $hile</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
     <!--Destacado-->
-    <section class="container" id="destacado">
+    <section class="container my-5 py-5" id="destacado">
         <h1 class="text-white text-center fw-bold">Destacado</h1>
         <hr>
         <div class="row">
-            <div class="card col-md-6 col-lg-3 bg-black my-2">
+            <div class="card col-md-6 col-lg-3 bg-black my-2" data-bs-toggle="tooltip" data-bs-placement="bottom" title="El Parque Nacional Torres del Paine, en la región de la Patagonia de Chile, es conocido por sus altas montañas, los témpanos de azul brillante que se aferran a los glaciares y las pampas doradas.">
                 <img src="./assets/img/card1.jpg" class="card-img-top rounded-top border-top border-end border-start border-light" alt="...">
                 <div class="card-body bg-ligth-blue rounded-bottom  border-end border-start border-bottom border-light">
                     <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
                     <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique voluptatum eligendi neque amet debitis molestias non, impedit nulla velit nihil?</p>
                 </div>
             </div>
-            <div class="card col-md-6 col-lg-3 bg-black my-2">
+            <div class="card col-md-6 col-lg-3 bg-black my-2" data-bs-toggle="tooltip" data-bs-placement="bottom" title="La Reserva Nacional los Flamencos fue creada en 1990 por la CONAF, posee 73 986,5 ha, se ubica en la cuenca del salar de Atacama, en la comuna de San Pedro de Atacama, Región de Antofagasta, en Chile.">
                 <img src="./assets/img/card2.jpg" class="card-img-top rounded-top border-top border-end border-start border-light" alt="...">
                 <div class="card-body bg-ligth-blue rounded-bottom  border-end border-start border-bottom border-light">
                     <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
                     <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique voluptatum eligendi neque amet debitis molestias non, impedit nulla velit nihil?</p>
                 </div>
             </div>
-            <div class="card col-md-6 col-lg-3 bg-black my-2">
+            <div class="card col-md-6 col-lg-3 bg-black my-2" data-bs-toggle="tooltip" data-bs-placement="bottom" title="El salar de Atacama es el mayor depósito salino de Chile emplazado en la Región de Antofagasta y se sitúa exactamente entre dos comunas chilenas.">
                 <img src="./assets/img/card3.jpg" class="card-img-top rounded-top border-top border-end border-start border-light" alt="...">
                 <div class="card-body bg-ligth-blue rounded-bottom  border-end border-start border-bottom border-light">
                     <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
                     <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique voluptatum eligendi neque amet debitis molestias non, impedit nulla velit nihil?</p>
                 </div>
             </div>
-            <div class="card col-md-6 col-lg-3 bg-black my-2">
+            <div class="card col-md-6 col-lg-3 bg-black my-2" data-bs-toggle="tooltip" data-bs-placement="bottom" title="El bosque valdiviano, también llamado selva valdiviana, o bosque andino patagónico es una ecorregión del centro-sur de Chile. Se caracteriza por tener bosques siempre verdes de múltiples estratos, en un clima templado-lluvioso u oceánico.">
                 <img src="./assets/img/card4.jpg" class="card-img-top rounded-top border-top border-end border-start border-light" alt="...">
                 <div class="card-body bg-ligth-blue rounded-bottom  border-end border-start border-bottom border-light">
                     <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
@@ -146,6 +167,7 @@
         </div>
     </section>
 
+    <!--Contacto-->
     <section class="container my-5 py-5" id=contacto>
         <h1 class="text-white text-center fw-bold">Contacto</h1>
         <hr>
@@ -172,15 +194,15 @@
     <!--Footer-->
     <footer class="container-fluid bg-ligth-blue py-3">
         <div class="row align-items-center">
-            <div class="col-md-6">
-                <h1 class="text-white text-center fw-bold">VIAJES CHILE</h1>
+            <div class="col-sm-6">
+                <h2 class="text-white text-center fw-bold">VIAJES CHILE</h2>
             </div>
-            <div class="col-md-6 ">
-                <div class="text-white text-center fa-2x m-1 ">
-                    <i class="fab fa-github-square fa-2x m-1 "></i>
-                    <i class="fab fa-linkedin fa-2x m-1 "></i>
-                    <i class="fab fa-twitter-square fa-2x m-1 "></i>
-                    <i class="fab fa-facebook-square fa-2x m-1 "></i>
+            <div class="col-sm-6 ">
+                <div class="text-center fa-2x m-1 ">
+                    <a href="https://github.com/" target="_blank" class="text-white"><i class="fab fa-github-square fs-1 m-1 "></i></a>
+                    <a href="https://www.linkedin.com/" target="_blank" class="text-white"> <i class="fab fa-linkedin  fs-1 m-1 "></i></a>
+                    <a href="https://www.facebook.com/" target="_blank" class="text-white"><i class="fab fa-twitter-square fs-1 m-1 "></i></a>
+                    <a href="https://twitter.com/" target="_blank" class="text-white"><i class="fab fa-facebook-square fs-1 m-1 "></i></a>
                 </div>
             </div>
         </div>
@@ -192,6 +214,7 @@
 
     <!--Bundle BS 5 JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js " integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8 " crossorigin="anonymous "></script>
+    <script src="./assets/js/index.js"></script>
 </body>
 
 </html>
